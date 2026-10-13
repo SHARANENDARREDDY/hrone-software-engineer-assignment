@@ -6,7 +6,7 @@ Read in this order:
 2. `openapi.yaml`: the API contract and the business rules (R1 - R10).
 3. `DATA_MODEL.md`: what is stored in MongoDB, with nine sample documents.
 4. `app/main.py`: the starter. Put **all** your code in this one file. It must start with `uvicorn app.main:app --port 8000`.
-5. `REVIEW.md`, `DECISIONS.md`: templates to fill in.
+5. `REVIEW.md`, `DECISIONS.md`: review findings, fixes, and design decisions for the implementation.
 
 `sample_data/` holds the nine sample documents as MongoDB Extended JSON; `sample_seed.py` loads them. The grader's dataset is
 much larger and contains cases they do not show.
